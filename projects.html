@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Abdelrhman Aleskandrany Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="icon" href="images/icon.png" type="image/icon">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"> </script>
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+      <!-- Intro -->
+      <div id="intro">
+        <div class="pfp">
+          <img
+            src="./images/Alex.jpg"
+            alt="Picture of me"
+            style="width: clamp(250px, 60%, 450px); border-radius: 50%"
+          />
+          <h1>Abdelrhman Aleskandrany</h1>
+        </div>
+        <p>
+          <a href="#nav" class="scrolly">Data Analysis Specialist</a> | <a href="Resume.pdf" target="_blank">Resume</a>
+        </p>
+        <ul class="actions">
+          <li>
+            <a
+              href="#header"
+              class="button icon solid solo fa-arrow-down scrolly"
+              >Continue</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Header -->
+      <header id="header">
+        <a href="Index.html" class="logo">About Me</a>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="inactive"><a href="index.html">About Me</a></li>
+          <li class="active"><a href="projects.html">Projects</a></li>
+          
+        </ul>
+        <ul class="icons">
+          <li>
+            <a href="https://www.linkedin.com/in/abdelrhman-aleskandrany/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a>
+          </li>
+          <!-- GitHub Icon -->
+          <li>
+            <a href="https://github.com/abdelrahman8123" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <article class="post featured">
+          <header>
+              <h2>Digital Marketing Campaign Overview | Tableau</h2>
+              <a href="javascript:void(0);" class="modal-open4">
+                  <img src="images/Marketing.png" alt="Digital Marketing Campaign" style="max-width:100%; height:auto; cursor:pointer;">
+              </a>
+          </header>
+          <p>This dashboard highlights the key performance metrics of a February 2021 digital marketing campaign. It provides an overview of revenue, return on marketing investment (ROMI), click-through rate (CTR), and conversion rate (CR). The data offers insights into the effectiveness of various channels, helping to inform future marketing strategies..</p>
+          <button class="btn modal-open4">View Project</button> <br><br>
+          <div class="modal4">
+              <div class="parent"><button class="btn modal-close4 top"><img src="./images/close.png" alt=""></button></div>
+              
+              <section>
+                <img src="./images/Marketing.png" alt="Dining Satisfaction Analysis Details">
+                <h2>Digital Marketing Campaign Overview</h2>
+                    <p>This Tableau dashboard provides an in-depth analysis of a digital marketing campaign's performance for February 2021. The dashboard includes key metrics such as revenue, marketing spend, Return on Marketing Investment (ROMI), Click-Through Rate (CTR), and Conversion Rate (CR).</p>
+                  <h3>Main Highlights</h3>
+                  <ul>
+                    <li><strong>Top Metrics:</strong> The top row of the dashboard displays the overall campaign's key performance indicators:
+                      <ul>
+                        <li><strong>Revenue:</strong> $42.89M</li>
+                        <li><strong>Marketing Spend:</strong> $30.59M</li>
+                        <li><strong>ROMI:</strong> 0.40</li>
+                        <li><strong>CTR:</strong> 0.19%</li>
+                        <li><strong>CR:</strong> 0.27%</li>
+                        <li><strong>CPC:</strong> $10.20</li>
+                        <li><strong>CAC:</strong> $466.47</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <h3>Detail by Source</h3>
+  <p>Visuals in the "Detail by Source" section include a breakdown of revenue by marketing sources such as Facebook, Google, Instagram, Media Banners, and YouTube. The pie chart highlights the revenue contribution from each source, with specific dollar amounts labeled.</p>
+
+  <h3>Detail by Channel</h3>
+  <p>This section categorizes the marketing efforts into channels like Influencer, Media, Search, and Social. The visuals provide insights into which channels are most effective in terms of revenue and ROMI.</p>
+  
+  <h3>Click-Through Rate (CTR) and Conversion Rate (CR)</h3>
+  <p>The bottom section includes line charts that track the daily CTR and CR throughout February. This data visualization allows for trend analysis across different sources and channels, helping identify which marketing strategies are performing best over time.</p>
+
+  <h3>Key Insights</h3>
+  <ul>
+    <li><strong>Revenue Distribution:</strong> The pie charts show how revenue is distributed among sources and channels, offering a clear picture of which areas are generating the most income.</li>
+    <li><strong>ROMI Comparison:</strong> The bar charts illustrate the ROMI for different sources and channels, helping identify the most cost-effective marketing efforts.</li>
+    <li><strong>Daily Performance Trends:</strong> The line charts for CTR and CR track performance fluctuations, providing actionable insights into daily campaign effectiveness.</li>
+  </ul>
+  
+  <p>This dashboard allows for a comprehensive view of the digital marketing campaign's performance, helping guide future strategies for maximizing ROI.</p>
+
+                </section>
+                <div class="github-link" style="text-align: center; margin-bottom: 20px;">
+                  <a href="https://github.com/qasem-ezzaldeen/Marketing-Campaign" target="_blank" style="font-size: 20px; text-decoration: none; color: #007bff; font-weight: bold;">Project on GitHub</a>
+                </div>
+          </div>
+          <script>
+              $(document).ready(function () {
+                  $('.modal-open4').on('click', function () {
+                      $('body').addClass('modal-open4');
+                      $('.modal4').fadeIn();
+                  });
+                  $('.modal-close4').on('click', function () {
+                      $('body').removeClass('modal-open4');
+                      $('.modal4').fadeOut();
+                  });
+              });
+          </script>
+      </article>
+
+        <!--- Posts --->
+
+      <!-- Footer -->
+      <footer id="footer">
+        <section class="split contact">
+          <section class="alt">
+            <h3>Address</h3>
+            <p>
+              Damietta, Egypt
+            </p>
+          </section>
+          <section>
+            <h3>Phone</h3>
+            <p><a href="https://wa.me/qr/SZ3Y2ALOGAZCJ1" target="_blank">(+20) 1205250301</a></p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <p><a href="mailto:bodaalex8123@gmail.com">bodaalex8123@gmail.com</a></p>
+          </section>
+          <script>
+          $(document).ready(function() {
+            // Add class to mailto link
+            // Needed to separate the disabling of the default action AND copy email to clipboard
+            $('a[href^=mailto]').addClass('mailto-link');
+          
+            var mailto = $('.mailto-link');
+            
+            // Disable opening your email client. yuk.
+            $('a[href^=mailto]').click(function() {
+              return false; 
+            })
+            
+            // On click, get href and remove 'mailto:' from value
+            // Store email address in a variable.
+            mailto.click(function() {
+              var href = $(this).attr('href');
+              var email = href.replace('mailto:', '');
+              copyToClipboard(email);
+              $('.mailto-message').empty().append(messageSuccess);
+              setTimeout(function() {
+                $('.mailto-message').empty().append(messageCopy);}, 2000); 
+            });
+            
+          });
+          
+          // Grabbed this from Stack Overflow.
+          // Copies the email variable to clipboard
+          function copyToClipboard(text) {
+              var dummy = document.createElement("input");
+              document.body.appendChild(dummy);
+              dummy.setAttribute('value', text);
+              dummy.select();
+              document.execCommand('copy');
+              document.body.removeChild(dummy);
+          }</script>
+          <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              <li>
+                <a href="https://www.linkedin.com/in/abdelrhman-aleskandrany/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a>
+              </li>
+              <!-- GitHub Icon -->
+              <li>
+                <a href="https://github.com/abdelrahman8123" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
